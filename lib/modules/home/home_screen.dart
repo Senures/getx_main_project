@@ -11,8 +11,8 @@ class HomeScreen extends GetView<HomeController> {
     return Scaffold(
       body: Center(
         child: Text(
-          "HomeScreen",
-          style: TextStyle(fontSize: 37),
+          "${controller.data}",
+          style: const TextStyle(fontSize: 37),
         ),
       ),
     );

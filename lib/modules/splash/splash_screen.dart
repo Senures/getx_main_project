@@ -8,8 +8,13 @@ class SplashScreen extends GetView<SplashController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("splash screen"),
+      body: Container(
+        child: Center(
+          child: Icon(
+            Icons.flutter_dash,
+            size: 72,
+          ),
+        ),
       ),
     );
   }
